@@ -13,7 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta app necesita acceso a la camara",
+        "NSPhotoLibraryUsageDescription": "Esta app necesita acceso a la galeria de fotos"
+      }
     },
     "android": {
       "adaptiveIcon": {
